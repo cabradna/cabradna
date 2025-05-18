@@ -38,7 +38,7 @@ I am currently pursuing my **Master of Science in Data Science at Tufts Universi
 Here are a few projects that showcase my skills and interests. (You'll want to link your actual GitHub repositories here!)
 
 1.  **LLM-Driven Dyna-Q for Enhanced Job Recommendation (Tufts University)**
-    * **Description:** Developed a sophisticated job recommendation system using the **Dyna-Q framework** to address the cold-start problem. This project involved creating a data pipeline that processes job postings (from Kaggle) and synthetic candidate profiles using LLMs (Gemini) for data augmentation and feature extraction. Skills and job features were embedded using Sentence2Vec (fine-tuned for hard skills via contrastive learning) and stored in MongoDB (`rl_jobsdb`). The RL agent was trained by comparing three reward generation strategies: Cosine Similarity, LLM-simulated feedback, and a Hybrid approach.
+    * **Description:** Developed a sophisticated job recommendation system using the **Dyna-Q framework** to address the cold-start problem. This project involved creating a data pipeline that processes job postings (from Kaggle) and synthetic candidate profiles using LLMs (Gemini) for data augmentation and feature extraction. Skills and job features were embedded using Sentence2Vec (fine-tuned for hard skills via contrastive learning) and stored in MongoDB. The RL agent was trained by comparing three reward generation strategies: Cosine Similarity, LLM-simulated feedback, and a Hybrid approach.
     * **Tech:** `Python`, `PyTorch`, `Reinforcement Learning (Dyna-Q)`, `LLMs (Gemini)`, `Sentence2Vec`, `MongoDB`, `Data Augmentation`, `Feature Engineering`.
     * `[Link to Repo]`
 
