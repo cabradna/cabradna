@@ -17,8 +17,8 @@ I am currently pursuing my **Master of Science in Data Science at Tufts Universi
 
 * **ML & AI:**
     * `Python (Expert)`, `PyTorch`, `TensorFlow`, `Scikit-learn`
-    * Recommender Systems (Collaborative Filtering, Neural Collaborative Filtering/NeuMF)
-    * NLP/LLMs (API Usage: Gemini, OpenAI; Models: BERT, TinyLlama; Fine-tuning & Optimization: Layer-Wise Early Exit, Skill Extraction Pipelines)
+    * Recommender Systems (Collaborative Filtering, Neural Collaborative Filtering/NeuMF, Dyna-Q)
+    * NLP/LLMs (API Usage: Gemini, OpenAI; Models: BERT, TinyLlama; Fine-tuning & Optimization: Layer-Wise Early Exit, Skill Extraction Pipelines, LLM-driven Data Augmentation & Simulation)
     * Reinforcement Learning (Contextual Bandits, Dyna-Q, Q-Learning)
     * Model Development, Deployment, Optimization, Feature Engineering
 * **Big Data & Cloud Platforms:**
@@ -31,21 +31,21 @@ I am currently pursuing my **Master of Science in Data Science at Tufts Universi
     * `Power BI`, `Apache Superset`
 * **Data Engineering:**
     * Data Pipeline Design & Implementation (Batch & Streaming)
-    * Data Modeling, ETL/ELT Concepts
+    * Data Modeling, ETL/ELT Concepts, Data Preprocessing & Augmentation
 
 ## ✨ Highlighted Projects
 
 Here are a few projects that showcase my skills and interests. (You'll want to link your actual GitHub repositories here!)
 
-1.  **Data Exploration & Visualization Platform (BDG)**
+1.  **LLM-Driven Dyna-Q for Enhanced Job Recommendation (Tufts University)**
+    * **Description:** Developed a sophisticated job recommendation system using the **Dyna-Q framework** to address the cold-start problem. This project involved creating a data pipeline that processes job postings (from Kaggle) and synthetic candidate profiles using LLMs (Gemini) for data augmentation and feature extraction. Skills and job features were embedded using Sentence2Vec (fine-tuned for hard skills via contrastive learning) and stored in MongoDB (`rl_jobsdb`). The RL agent was trained by comparing three reward generation strategies: Cosine Similarity, LLM-simulated feedback, and a Hybrid approach.
+    * **Tech:** `Python`, `PyTorch`, `Reinforcement Learning (Dyna-Q)`, `LLMs (Gemini)`, `Sentence2Vec`, `MongoDB`, `Data Augmentation`, `Feature Engineering`.
+    * `[Link to Repo]`
+
+2.  **Data Exploration & Visualization Platform (BDG)**
     * **Description:** Currently designing and developing a new, scalable business intelligence platform on GCP. This system leverages Apache Drill to unify disparate data sources (SQL & MongoDB) and Apache Superset for self-service analytics, aiming to democratize data access and replace legacy systems.
     * **Tech:** `Apache Drill`, `Apache Superset`, `MongoDB`, `SQL`, `GCP`, `Python`, `Data Architecture`.
     * `[Link to Repo - if applicable/public]`
-
-2.  **Reinforcement Learning Pipeline for Job Recommendation (Tufts University)**
-    * **Description:** Architected and implemented a personalized job recommendation system using Contextual Bandits (LinUCB, Neural). Engineered a pipeline leveraging LLMs (Gemini/OpenAI) for automated skill extraction and matching from job descriptions, using Sentence Transformers/FastText and MongoDB.
-    * **Tech:** `Python`, `PyTorch`, `Reinforcement Learning`, `LLMs (Gemini/OpenAI)`, `Sentence Transformers`, `MongoDB`.
-    * `[Link to Repo]`
 
 3.  **Real-Time Spark Streaming Pipeline on GCP (Tufts University)**
     * **Description:** Built an end-to-end scalable streaming analysis pipeline on GCP Dataproc using Spark Structured Streaming for real-time stock data. Implemented stateful stream processing, windowed aggregations, signal generation, and HDFS persistence.
@@ -64,7 +64,7 @@ Here are a few projects that showcase my skills and interests. (You'll want to l
 
 *(For more projects spanning Big Data stream processing, AI algorithms like Bayesian Classifiers, CSP Solvers, Genetic Algorithms, and A\* Search, please explore my repositories!)*
 
-##  경험 (Experience)
+## Experience
 
 * **Data Scientist Intern** | Business Development Group (Nov 2024 – Present)
     * Spearheading the design and development of a scalable, end-to-end business intelligence platform on GCP.
@@ -79,7 +79,7 @@ Here are a few projects that showcase my skills and interests. (You'll want to l
 * **Tufts University** | Medford, MA
     * Master of Science in Data Science (Expected May 2026)
     * *Relevant Coursework:* Big Data, Machine Learning, Natural Language Processing, Artificial Intelligence, Reinforcement Learning
-* **Bates College** | Lewiston, ME
+* **Bates College** | Lewiston, MA
     * Bachelor of Science in Physics and Astronomy (2020)
     * *Summa Cum Laude (GPA 4.0)*
 
