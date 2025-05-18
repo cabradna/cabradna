@@ -57,12 +57,6 @@ Here are a few projects that showcase my skills and interests. (You'll want to l
     * **Tech:** `Python`, `PyTorch`, `LLMs (TinyLlama)`, `Deep Learning Optimization`.
     * `[Link to Repo]`
 
-5.  **Neural Recommender System - NeuMF (Tufts University)**
-    * **Description:** Implemented and optimized a Neural Collaborative Filtering (NeuMF) pipeline in PyTorch for movie recommendations (MovieLens dataset). Integrated GMF, MLP, and user features, employing advanced optimization techniques.
-    * **Tech:** `Python`, `PyTorch`, `Recommender Systems`, `Deep Learning`.
-    * `[Link to Repo]`
-
-*(For more projects spanning Big Data stream processing, AI algorithms like Bayesian Classifiers, CSP Solvers, Genetic Algorithms, and A\* Search, please explore my repositories!)*
 
 ## Experience
 
